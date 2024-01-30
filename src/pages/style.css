@@ -1,0 +1,21 @@
+.page1 {
+
+}
+
+.two-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.two-cols > div {
+  flex-basis: 48%;
+  min-width: 400px;
+}
+
+.two-cols textarea {
+  resize: none;
+  width: 80%;
+  height: 60px;
+}
